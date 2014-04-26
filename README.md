@@ -74,4 +74,4 @@ To run Jekyll in a way that matches the GitHub Pages build server, run Jekyll wi
 Jekyll's an [active open source project](https://github.com/mojombo/jekyll), and is updated frequently. As the GitHub Pages server is updated, the software on your computer may become out of date, resulting in your site appearing different locally from how it looks when published on GitHub. To keep Jekyll up to date, you can run the command ```bundle update```.
 
 ###Conclusion
-The Jekyll install was interesting experience and you can find more information and troubleshooting steps on the sites whose information I referenced here.
+The Jekyll install was an interesting experience and you can find more information and troubleshooting steps on the sites whose information I referenced.
