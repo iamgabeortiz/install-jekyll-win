@@ -65,7 +65,7 @@ require 'rbconfig'
 gem 'wdm', '~> 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 ```
 
-*You will find that you have to run ```bundle install``` again after adding the Auto-Configuration portion to the ```Gemfile```` or using my ```Gemfile``` as Bundle will require the wdm gem.*
+*You will find that you may have to run ```bundle install``` again after adding the Auto-Configuration portion to the ```Gemfile``` or if using my [my](https://github.com/iamgabeortiz/iamgabeortiz.github.io/blob/master/Gemfile) ```Gemfile``` as Bundle will require the wdm gem.*
 
 ###Running jekyll
 To run Jekyll in a way that matches the GitHub Pages build server, run Jekyll with Bundler. Use the command ```bundle exec jekyll serve``` in the root of your repository, and your site should be available at ```http://localhost:4000```. For a full list of Jekyll commands, see [the Jekyll documentation](http://jekyllrb.com/docs/usage/).
