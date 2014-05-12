@@ -22,7 +22,7 @@
 
 2. Next fire up your favorite Command Line Interface (CLI) (I prefer [PowerShell](http://en.wikipedia.org/wiki/Windows_PowerShell)) and navigate to the **C:\RubyDevKit** folder.  Run ```ruby dk.rb init``` to have Ruby create the initial **config.yaml** file.
 
-3. Open the **config.yaml** file to ensure it looks like similar to mine.
+3. Open the **config.yaml** file to ensure it looks similar to mine.
 
 4. In the same **C:\RubyDevKit** folder run ```ruby dk.rb install``` to install the Ruby Development Kit.
 
@@ -65,7 +65,7 @@ require 'rbconfig'
 gem 'wdm', '~> 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 ```
 
-*You will find that you may have to run ```bundle install``` again after adding the Auto-Configuration portion to the ```Gemfile``` or if using my [my](https://github.com/iamgabeortiz/iamgabeortiz.github.io/blob/master/Gemfile) ```Gemfile``` as Bundle will require the wdm gem.*
+*You will find that you may have to run ```bundle install``` again after adding the Auto-Configuration portion to the ```Gemfile``` or if using [my](https://github.com/iamgabeortiz/iamgabeortiz.github.io/blob/master/Gemfile) ```Gemfile``` as Bundle will require the wdm gem.*
 
 ###Running jekyll
 To run Jekyll in a way that matches the GitHub Pages build server, run Jekyll with Bundler. Use the command ```bundle exec jekyll serve``` in the root of your repository, and your site should be available at ```http://localhost:4000```. For a full list of Jekyll commands, see [the Jekyll documentation](http://jekyllrb.com/docs/usage/).
