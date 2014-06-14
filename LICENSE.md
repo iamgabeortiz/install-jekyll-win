@@ -1,1 +1,1 @@
-http://iamgabeortiz.mit-license.org/
+http://bit.ly/1qLFP4Q
